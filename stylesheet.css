@@ -1,0 +1,252 @@
+body {
+	background-color: #3D4855;
+	margin: 0;
+}
+
+header {
+	position: relative;
+	font-family: arial;
+	color: #FFFFFF;
+	overflow: hidden;
+	background-color: #3D4855;
+}
+
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+	margin: 20px 0 30px;
+}
+
+.logo img {
+	width: 150px;
+}
+
+.menu-buttons {
+	float: right;
+}
+
+.menu-buttons ul li {
+	list-style: none;
+	float: left;
+	border-right: 1px solid #FFFFFF;
+	padding-right: 10px;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.menu-buttons ul li:nth-of-type(3n), 
+.menu-buttons ul li:nth-of-type(4n) {
+	border-right: none;
+}
+
+
+.menu-buttons ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+nav {
+	position: relative;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+ul.menu-nav-buttons {
+	padding: 0;
+}
+
+ul.menu-nav-buttons li {
+	list-style: none;
+	float: left;
+	border-right: 1px solid black;
+	padding-right: 10px;
+	font-family: arial;
+	font-size: 16px;
+	margin: 0 10px 10px 0;
+	color: black;
+}
+
+ul.menu-nav-buttons li:nth-of-type(3n) {
+	border-right: none;
+}
+
+ul.menu-nav-buttons li a {
+	text-decoration: none;
+	color: black;
+}
+
+.main-container {
+	position: relative;
+	width: 100%;
+	background-image: url("images/main-background2.jpg");
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+ul.main-container-buttons {
+	height: 1em;
+	padding: 10px 0 20px;
+}
+
+ul.main-container-buttons li {
+	list-style: none;
+	float: left;
+	font-family: arial;
+	font-size: 12px;
+	margin: 0 10px 10px 0;
+	
+}
+
+ul.main-container-buttons li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+h1.main-title {
+	margin: 10px 0;
+	color: #FFFFFF;
+	font-family: arial;
+	font-weight: 200;
+	font-size: 30px;
+	text-align: left;
+}
+
+h3.main-subtitle {
+	width: 55%;
+	color: #FFFFFF;
+	font-family: arial;
+	text-align: left;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+
+.read-button {
+	width: 80px;
+	border: 1px solid #FFFFFF;
+	padding: 5px 12px 5px 14px;
+}
+
+.read-button a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: arial;
+	font-size: 14px;
+	text-align: left;
+}
+
+
+.tout {
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	margin-right: 3px;
+	width: calc(33.33% - (3px));
+	height: 350px;
+	overflow: hidden;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.tout:nth-of-type(3n) {
+	margin-right: none;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 210px;
+}
+
+.tout-img {
+	position: absolute;
+	width: 100%;
+	height: 350px;
+	background-size: cover;
+}
+
+h2.tout-title {
+	color: #8996a0;
+	font-family: arial;
+	font-weight: normal;
+	border-bottom: 1px solid #8996a0;
+	padding: 15px 0;
+	margin: 0 15px;
+
+}
+
+p.tout-paragraph {
+	color: black;
+	font-family: arial;
+	font-weight: normal;
+	font-size: 14px;
+	padding: 10px 15px;
+}
+
+.tout-title-section {
+	color: #FFFFFF;
+	font-family: arial;
+	clear: both;
+	padding: 25px 0 0 0;
+}
+
+.tout.tout-inverse {
+	margin-top: 0;
+	 
+}
+
+.tout.tout-inverse .overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.tout-inverse h2.tout-title {
+	color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+
+
+}
+
+.tout-inverse p.tout-paragraph {
+	color: #FFFFFF;
+}
+
+
+/* slick patches */
+/*
+	https://github.com/kenwheeler/slick/pull/1045/files
+*/
+.slick-dots li button:before {
+	content: '\2022' !important;
+}
+
+.slick-prev:before {
+	content: '\2190' !important;
+	color: #444 !important;
+}
+
+.slick-next:before {
+	content: '\2192' !important;
+	color: #444 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
